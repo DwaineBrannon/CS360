@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DwaineBrannonInventoryApp</string>
+    <string name="LoginText">Login</string>
+    <string name ="loginButtonText">Log In</string>
+    <string name="submit">Submit</string>
+    <string name="userName">username</string>
+    <string name="password">password</string>
+    <string name="passwordFiller">Enter Your Password</string>
+    <string name="usernameFiller">Enter Your Username</string>
+    <string name="signUp">Sign Up</string>
+    <string name="cheqonitlogo">CheqOnItLogo</string>
+    <string name="inventory">Inventory</string>
+    <string name="add_item">Add Item</string>
+    <string name="edit_item_count">Edit Item Count</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_quantity" />
+    <string name="inventory_item_icon">Inventory Item Icon</string>
+    <string name="app_logo_description">app logo</string>
+    <string name="ReceiveSMSnotifications">Would you like to receive SMS notifications about your inventory?</string>
+    <string name="grant_permission_button">Yes Please</string>
+    <string name="remind_me_later_button">Renmind Me Later</string>
+    <string name="edit_quantity">Edit Quantity</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="quantity">Quantity:</string>
+    <string name="itemId">"Item ID: "</string>
+    <string name="itemName">"Item Name: "</string>
+</resources>
