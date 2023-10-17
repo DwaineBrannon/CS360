@@ -1,6 +1,7 @@
 package com.projects.dwainebrannoninventoryapp;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -13,6 +14,8 @@ import android.app.AlertDialog;
 
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +31,7 @@ public class HomePageActivity extends AppCompatActivity {
         Button editButton = findViewById(R.id.editButton);
         Button deleteButton = findViewById(R.id.deleteButton);
         GridView gridView = findViewById(R.id.gridView);
-
+        FloatingActionButton floatingActionButton = findViewById(R.id.fab);
         dataSource = new InventoryDataSource(this);
         dataSource.open();
 
@@ -100,7 +103,16 @@ public class HomePageActivity extends AppCompatActivity {
                 alertDialog.show();
             }
         });
+        // For the notification signup
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // On Click bring in activity for notification_screen xml
+                Intent intent =new Intent (HomePageActivity.this, NotificationActivity.class);
 
+                startActivity(intent);
+            }
+            });
 
         editButton.setOnClickListener(new View.OnClickListener() {
 
@@ -185,6 +197,7 @@ public class HomePageActivity extends AppCompatActivity {
                 }
             }
         });
+
     }
         @Override
         protected void onDestroy () {

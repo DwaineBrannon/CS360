@@ -18,7 +18,10 @@
             android:exported="true">
         </activity>
 
-        <!-- Add more activities and services as needed -->
+        <activity android:name=".NotificationActivity"
+            android:theme="@style/AppTheme"
+            android:exported="true">
+        </activity>
 
     </application>
 </manifest>
