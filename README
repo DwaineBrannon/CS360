@@ -1,0 +1,20 @@
+Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
+  The requirements of this app were to develop a mobile application for Inventory management. We needed a login page, an inventory page, and a page to receive sms notifications.
+
+What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+  To support user needs and produce a user-centered UI, we needed to have the Login/Register page, the home page, and the notification page. My design keeps users in mind by trying to
+make things easy to reach. I believe I succeeded by keeping in mind design best practices.
+
+How did you approach the process of coding your app? What techniques or strategies did you use? How could those be applied in the future?
+  I looked for a lot of documentation as well as tutorial youtube videos to see how to connect UI to backend logic, 
+  after a while I got used to the design patterns of the code and was able to implement functions without tutorials. In the future, this will help me design more methods for mobile apps
+    
+How did you test to ensure your code was functional? Why is this process important and what did it reveal?
+  I tested by using the android emulator, and downloading my app to my phone. It's important to error test because you never know 
+  what bugs the user will find, or what logic you just wouddn't have thought to implement if you didn't test it outby using it
+
+Considering the full app design and development process, from initial planning to finalization, where did you have to innovate to overcome a challenge?
+  A place I innovated was in the UI portion, I do not enjoy the UI design stuff so I had to do a lot of things that I don't think would be considered
+  best practice because it just didn't come naturally to me, so i "Innovated" by designing a bad UI
+In what specific component from your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+  I think the most success I had was the backend logic for sure. I was able to incorporate by knowledge of logic to create application functionality
